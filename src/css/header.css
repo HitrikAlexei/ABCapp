@@ -1,5 +1,5 @@
-.header{
-
+.header-container{
+    padding-top: 10%;
     min-width: 40px;
     min-height: 40px;
     background-image: url(../images/logo.png);

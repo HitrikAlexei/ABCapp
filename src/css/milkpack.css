@@ -11,7 +11,7 @@ align-items: center;
     background-size: contain;
     background-position: 50% 50%;
     min-width: 150px;
-    min-height: 150px;
+    min-height: 130px;
 }
 .container-milkpack-item__image:active {
     transform: scale(1.1);

@@ -1,5 +1,8 @@
-@import 'css/reset.css';
-@import 'css/wrapper.css';
-@import 'css/header.css';
-@import 'css/containerMilkpack.css';
-@import 'css/milkpack.css';
+@import "css/reset.css";
+@import "css/wrapper.css";
+@import "css/header.css";
+@import "css/selectionMilkpack.css";
+@import "css/milkpack.css";
+@import "css/selectProduct.css";
+@import "css/buttons.css";
+@import "css/parameterSettings.css";
