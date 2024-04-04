@@ -31,6 +31,14 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   text-align: start;
+  font-size: 16px;
+}
+.options-container p {
+  font-size: 18px;
+}
+.options-container__item_left,
+.options-container__item_right div {
+  padding-left: 10px;
 }
 
 .options-container__item_right {
@@ -48,7 +56,5 @@
   grid-area: right;
   border-top: 1px solid black;
   text-align: start;
-}
-options-container__title {
   font-size: 16px;
 }

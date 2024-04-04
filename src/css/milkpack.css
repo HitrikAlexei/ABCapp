@@ -1,26 +1,25 @@
 .container-milkpack-item {
-    margin-top: 100px;
-    display: flex;
-flex-direction: column;
-align-items: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-milkpack-item__image {
-    background-image: url(../images/milkpack.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
-    min-width: 150px;
-    min-height: 130px;
+  background-image: url(../images/milkpack.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  min-width: 150px;
+  min-height: 130px;
 }
 .container-milkpack-item__image:active {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 .container-milkpack-item__name {
-    font-family: "Protest Revolution", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-
+  font-family: "Protest Revolution", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
 }
