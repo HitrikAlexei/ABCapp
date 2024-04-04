@@ -5,7 +5,7 @@ function Options(props) {
     <div className="options-container">
       <p className="options-container__title">ЛЕВЫЙ РУКАВ</p>
       <div className="options-container__item_left">
-        Температура вертикальной грелки
+        <div>Температура вертикальной грелки</div>
         <div>{props.verticalLeft}</div>
         <div>Температура горизонтальной грелки</div>
         <div>{props.horizontalLeft}</div>
@@ -22,7 +22,7 @@ function Options(props) {
       </div>
       <p className="options-container__title">ПРАВЫЙ РУКАВ</p>
       <div className="options-container__item_right">
-        Температура вертикальной грелки
+        <div>Температура вертикальной грелки</div>
         <div>{props.verticalRight}</div>
         <div>Температура горизонтальной грелки</div>
         <div>{props.horizontalRight}</div>

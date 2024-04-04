@@ -23,7 +23,7 @@
 .product-container__item {
   position: relative;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 10px;
   border-color: 5px solid black;
 }
 

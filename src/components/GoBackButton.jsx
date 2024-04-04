@@ -1,12 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import { useNavigate } from "react-router-dom";
 
 function GoBackButton() {
+  const navigate = useNavigate();
   return (
     <div className="button-container">
-      <Link to="/">
-        <div className="button-container__item"></div>
-      </Link>
+      <button
+        className="button-container__item"
+        onClick={() => navigate(-1)}
+      ></button>
     </div>
   );
 }

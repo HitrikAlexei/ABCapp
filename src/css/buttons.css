@@ -7,26 +7,46 @@
 .button-container__item {
   min-width: 100px;
   min-height: 100px;
-  background-image: url(../images/arrow.png);
-  background-size: cover;
-}
-.button-container__item_polotck {
+  margin-top: 10px;
   margin-left: 10px;
-  min-width: 200px;
-  min-height: 60px;
-  text-align: center;
-  background-color: rgb(16, 222, 236);
-  color: aliceblue;
-  border-radius: 10px;
+
+  background: linear-gradient(
+    90deg,
+    rgb(129, 201, 230) 0%,
+    rgb(79, 190, 209) 100%
+  );
+  background-image: url(../images/arrow.png);
+  background-size: contain;
+  border: none;
+  border-radius: 50%;
 }
-.button-container__item_borisov {
-  margin-right: 10px;
-  min-width: 200px;
+.button-container__item:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 7px 7px 10px rgb(79, 190, 209);
+}
+.button-container__item_manufacturer {
+  min-width: 180px;
   min-height: 60px;
   text-align: center;
   background-color: rgb(16, 222, 236);
   color: aliceblue;
+  border: none;
   border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 7px 7px 10px rgb(79, 190, 209);
+}
+.button-container__item_manufacturer_active {
+  min-width: 180px;
+  min-height: 60px;
+  text-align: center;
+  background-color: rgb(8, 103, 158);
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 7px 7px 10px rgb(79, 190, 209);
 }
 .button_arrow {
   min-width: 100px;

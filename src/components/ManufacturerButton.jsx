@@ -1,13 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import GoBackButton from "./GoBackButton.jsx";
 
 function ManufacturerButton() {
+  const [checked, setChecked] = useState(true);
+  function chengeCheckbox() {
+    setChecked(!checked);
+  }
   return (
     <>
       <GoBackButton />
       <div className="button-container">
-        <div className="button-container__item_polotck">Полоцк</div>
-        <div className="button-container__item_borisov">Борисов</div>
+        <button
+          checked={checked}
+          onClick={chengeCheckbox}
+          className={
+            checked
+              ? "button-container__item_manufacturer_active"
+              : "button-container__item_manufacturer"
+          }
+        >
+          Борисов
+        </button>
+
+        <button
+          checked={checked}
+          onClick={chengeCheckbox}
+          className={
+            checked
+              ? "button-container__item_manufacturer"
+              : "button-container__item_manufacturer_active"
+          }
+        >
+          Полоцк
+        </button>
       </div>
     </>
   );
