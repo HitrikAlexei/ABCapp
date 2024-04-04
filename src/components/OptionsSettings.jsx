@@ -9,12 +9,14 @@ function OptionsSettings({
   weldingTimeLeft,
   stretchOutLeft,
   startDelayLeft,
+  photoDelayLeft,
   verticalRight,
   horizontalRight,
   packetLengthRight,
   weldingTimeRight,
   stretchOutRight,
   startDelayRight,
+  photoDelayRight,
 }) {
   return (
     <>
@@ -26,12 +28,14 @@ function OptionsSettings({
         weldingTimeLeft={weldingTimeLeft}
         stretchOutLeft={stretchOutLeft}
         startDelayLeft={startDelayLeft}
+        photoDelayLeft={photoDelayLeft}
         verticalRight={verticalRight}
         horizontalRight={horizontalRight}
         packetLengthRight={packetLengthRight}
         weldingTimeRight={weldingTimeRight}
         stretchOutRight={stretchOutRight}
         startDelayRight={startDelayRight}
+        photoDelayRight={photoDelayRight}
       />
     </>
   );

@@ -1,15 +1,15 @@
 import React from "react";
 
-import Maionez from "./Maionez.jsx";
+import Ketcup from "./Ketchup.jsx";
 import GoBackButton from "./GoBackButton.jsx";
 
-function SelectMaionez() {
+function SelectKetchup() {
   return (
     <>
       <GoBackButton />
-      <Maionez />
+      <Ketcup milkNumber="3" />
     </>
   );
 }
 
-export default SelectMaionez;
+export default SelectKetchup;

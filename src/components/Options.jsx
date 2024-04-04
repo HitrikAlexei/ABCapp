@@ -17,6 +17,8 @@ function Options(props) {
         <div>{props.stretchOutLeft}</div>
         <div>Задержка старта</div>
         <div>{props.startDelayLeft}</div>
+        <div>Задержка по фотометке</div>
+        <div>{props.photoDelayLeft}</div>
       </div>
       <p className="options-container__title">ПРАВЫЙ РУКАВ</p>
       <div className="options-container__item_right">
@@ -32,6 +34,8 @@ function Options(props) {
         <div>{props.stretchOutRight}</div>
         <div>Задержка старта</div>
         <div>{props.startDelayRight}</div>
+        <div>Задержка по фотометке</div>
+        <div>{props.photoDelayRight}</div>
       </div>
     </div>
   );
