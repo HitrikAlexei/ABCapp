@@ -65,14 +65,14 @@ function App() {
                 weldingTimeLeft={440}
                 stretchOutLeft={750}
                 startDelayLeft={30}
-                photoDelayLeft={28}
+                photoDelayLeft={44}
                 verticalRight={135}
                 horizontalRight={195}
                 packetLengthRight={130}
                 weldingTimeRight={450}
                 stretchOutRight={750}
                 startDelayRight={60}
-                photoDelayRight={28}
+                photoDelayRight={32}
               />
             }
           />
@@ -80,10 +80,10 @@ function App() {
             path="/milkpack1/evropeiskii560_borisov"
             element={
               <OptionsSettings
-                verticalLeft={136}
-                horizontalLeft={156}
-                packetLengthLeft={197}
-                weldingTimeLeft={450}
+                verticalLeft={142}
+                horizontalLeft={150}
+                packetLengthLeft={200}
+                weldingTimeLeft={530}
                 stretchOutLeft={750}
                 startDelayLeft={12}
                 photoDelayLeft={0}
@@ -270,17 +270,17 @@ function App() {
             path="/milkpack2/evropeiskii560_borisov"
             element={
               <OptionsSettings
-                verticalLeft={135}
+                verticalLeft={125}
                 horizontalLeft={165}
                 packetLengthLeft={210}
-                weldingTimeLeft={450}
+                weldingTimeLeft={410}
                 stretchOutLeft={750}
                 startDelayLeft={17}
                 photoDelayLeft={0}
-                verticalRight={152}
+                verticalRight={156}
                 horizontalRight={160}
                 packetLengthRight={210}
-                weldingTimeRight={450}
+                weldingTimeRight={490}
                 stretchOutRight={750}
                 startDelayRight={17}
                 photoDelayRight={0}
@@ -439,13 +439,13 @@ function App() {
             path="/milkpack3/grill360_borisov"
             element={
               <OptionsSettings
-                verticalLeft={140}
-                horizontalLeft={141}
+                verticalLeft={145}
+                horizontalLeft={145}
                 packetLengthLeft={160}
-                weldingTimeLeft={430}
+                weldingTimeLeft={420}
                 stretchOutLeft={600}
                 startDelayLeft={17}
-                photoDelayLeft={62}
+                photoDelayLeft={57}
                 verticalRight={148}
                 horizontalRight={180}
                 packetLengthRight={160}
