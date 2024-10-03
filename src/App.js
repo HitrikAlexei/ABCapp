@@ -66,13 +66,13 @@ function App() {
                 stretchOutLeft={750}
                 startDelayLeft={30}
                 photoDelayLeft={44}
-                verticalRight={135}
-                horizontalRight={195}
+                verticalRight={145}
+                horizontalRight={170}
                 packetLengthRight={130}
-                weldingTimeRight={450}
+                weldingTimeRight={490}
                 stretchOutRight={750}
                 startDelayRight={60}
-                photoDelayRight={32}
+                photoDelayRight={30}
               />
             }
           />
@@ -108,10 +108,10 @@ function App() {
                 stretchOutLeft={750}
                 startDelayLeft={60}
                 photoDelayLeft={0}
-                verticalRight={160}
-                horizontalRight={208}
+                verticalRight={162}
+                horizontalRight={170}
                 packetLengthRight={160}
-                weldingTimeRight={440}
+                weldingTimeRight={510}
                 stretchOutRight={750}
                 startDelayRight={27}
                 photoDelayRight={0}
@@ -129,10 +129,10 @@ function App() {
                 stretchOutLeft={750}
                 startDelayLeft={30}
                 photoDelayLeft={0}
-                verticalRight={135}
-                horizontalRight={195}
-                packetLengthRight={117}
-                weldingTimeRight={450}
+                verticalRight={145}
+                horizontalRight={170}
+                packetLengthRight={115}
+                weldingTimeRight={440}
                 stretchOutRight={750}
                 startDelayRight={60}
                 photoDelayRight={0}
@@ -231,7 +231,7 @@ function App() {
                 verticalLeft={130}
                 horizontalLeft={220}
                 packetLengthLeft={180}
-                weldingTimeLeft={500}
+                weldingTimeLeft={440}
                 stretchOutLeft={750}
                 startDelayLeft={30}
                 photoDelayLeft={52}
