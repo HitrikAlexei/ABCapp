@@ -67,7 +67,7 @@ function App() {
                 startDelayLeft={30}
                 photoDelayLeft={44}
                 verticalRight={145}
-                horizontalRight={170}
+                horizontalRight={200}
                 packetLengthRight={130}
                 weldingTimeRight={490}
                 stretchOutRight={750}
@@ -88,9 +88,9 @@ function App() {
                 startDelayLeft={12}
                 photoDelayLeft={0}
                 verticalRight={160}
-                horizontalRight={175}
+                horizontalRight={205}
                 packetLengthRight={194}
-                weldingTimeRight={480}
+                weldingTimeRight={450}
                 stretchOutRight={750}
                 startDelayRight={17}
                 photoDelayRight={0}
@@ -143,13 +143,13 @@ function App() {
             path="/milkpack1/mokovskiiProvansal_borisov"
             element={
               <OptionsSettings
-                verticalLeft={135}
+                verticalLeft={145}
                 horizontalLeft={160}
                 packetLengthLeft={180}
                 weldingTimeLeft={480}
                 stretchOutLeft={750}
                 startDelayLeft={60}
-                photoDelayLeft={52}
+                photoDelayLeft={54}
                 verticalRight={160}
                 horizontalRight={208}
                 packetLengthRight={180}
@@ -207,17 +207,17 @@ function App() {
             path="/milkpack2/mokovskii560_borisov"
             element={
               <OptionsSettings
-                verticalLeft={140}
+                verticalLeft={150}
                 horizontalLeft={225}
                 packetLengthLeft={210}
-                weldingTimeLeft={470}
+                weldingTimeLeft={475}
                 stretchOutLeft={750}
                 startDelayLeft={17}
                 photoDelayLeft={0}
                 verticalRight={155}
                 horizontalRight={170}
                 packetLengthRight={210}
-                weldingTimeRight={490}
+                weldingTimeRight={500}
                 stretchOutRight={750}
                 startDelayRight={17}
                 photoDelayRight={0}
@@ -228,10 +228,10 @@ function App() {
             path="/milkpack2/mokovskii360_borisov"
             element={
               <OptionsSettings
-                verticalLeft={130}
-                horizontalLeft={220}
+                verticalLeft={145}
+                horizontalLeft={230}
                 packetLengthLeft={180}
-                weldingTimeLeft={480}
+                weldingTimeLeft={430}
                 stretchOutLeft={750}
                 startDelayLeft={30}
                 photoDelayLeft={50}
@@ -249,14 +249,14 @@ function App() {
             path="/milkpack2/mokovskii160_borisov"
             element={
               <OptionsSettings
-                verticalLeft={115}
-                horizontalLeft={225}
+                verticalLeft={125}
+                horizontalLeft={230}
                 packetLengthLeft={130}
-                weldingTimeLeft={430}
+                weldingTimeLeft={450}
                 stretchOutLeft={750}
                 startDelayLeft={60}
-                photoDelayLeft={40}
-                verticalRight={130}
+                photoDelayLeft={43}
+                verticalRight={135}
                 horizontalRight={175}
                 packetLengthRight={130}
                 weldingTimeRight={470}
@@ -270,17 +270,17 @@ function App() {
             path="/milkpack2/evropeiskii560_borisov"
             element={
               <OptionsSettings
-                verticalLeft={130}
-                horizontalLeft={220}
+                verticalLeft={145}
+                horizontalLeft={230}
                 packetLengthLeft={207}
-                weldingTimeLeft={500}
+                weldingTimeLeft={490}
                 stretchOutLeft={750}
                 startDelayLeft={17}
                 photoDelayLeft={0}
-                verticalRight={160}
-                horizontalRight={160}
+                verticalRight={165}
+                horizontalRight={175}
                 packetLengthRight={207}
-                weldingTimeRight={480}
+                weldingTimeRight={490}
                 stretchOutRight={750}
                 startDelayRight={17}
                 photoDelayRight={0}
@@ -291,17 +291,17 @@ function App() {
             path="/milkpack2/evropeiskii360_borisov"
             element={
               <OptionsSettings
-                verticalLeft={135}
-                horizontalLeft={220}
+                verticalLeft={145}
+                horizontalLeft={230}
                 packetLengthLeft={175}
-                weldingTimeLeft={480}
+                weldingTimeLeft={500}
                 stretchOutLeft={750}
                 startDelayLeft={22}
                 photoDelayLeft={0}
-                verticalRight={152}
-                horizontalRight={160}
+                verticalRight={160}
+                horizontalRight={165}
                 packetLengthRight={175}
-                weldingTimeRight={470}
+                weldingTimeRight={450}
                 stretchOutRight={750}
                 startDelayRight={20}
                 photoDelayRight={0}
@@ -333,20 +333,20 @@ function App() {
             path="/milkpack2/mokovskiiProvansal_borisov"
             element={
               <OptionsSettings
-                verticalLeft={130}
-                horizontalLeft={225}
+                verticalLeft={140}
+                horizontalLeft={235}
                 packetLengthLeft={180}
-                weldingTimeLeft={490}
+                weldingTimeLeft={480}
                 stretchOutLeft={750}
                 startDelayLeft={20}
-                photoDelayLeft={56}
-                verticalRight={160}
+                photoDelayLeft={50}
+                verticalRight={170}
                 horizontalRight={170}
                 packetLengthRight={180}
-                weldingTimeRight={490}
+                weldingTimeRight={440}
                 stretchOutRight={650}
                 startDelayRight={18}
-                photoDelayRight={51}
+                photoDelayRight={62}
               />
             }
           />
@@ -357,7 +357,7 @@ function App() {
                 verticalLeft={140}
                 horizontalLeft={220}
                 packetLengthLeft={175}
-                weldingTimeLeft={450}
+                weldingTimeLeft={520}
                 stretchOutLeft={750}
                 startDelayLeft={23}
                 photoDelayLeft={0}
@@ -376,19 +376,19 @@ function App() {
             element={
               <OptionsSettings
                 verticalLeft={140}
-                horizontalLeft={220}
+                horizontalLeft={230}
                 packetLengthLeft={180}
-                weldingTimeLeft={450}
+                weldingTimeLeft={460}
                 stretchOutLeft={750}
                 startDelayLeft={26}
-                photoDelayLeft={43}
-                verticalRight={149}
-                horizontalRight={162}
+                photoDelayLeft={56}
+                verticalRight={155}
+                horizontalRight={170}
                 packetLengthRight={180}
-                weldingTimeRight={460}
+                weldingTimeRight={510}
                 stretchOutRight={750}
                 startDelayRight={18}
-                photoDelayRight={43}
+                photoDelayRight={56}
               />
             }
           />
@@ -397,17 +397,17 @@ function App() {
             path="/milkpack3/dvs360_borisov"
             element={
               <OptionsSettings
-                verticalLeft={145}
-                horizontalLeft={165}
+                verticalLeft={135}
+                horizontalLeft={150}
                 packetLengthLeft={160}
-                weldingTimeLeft={470}
+                weldingTimeLeft={420}
                 stretchOutLeft={600}
                 startDelayLeft={17}
                 photoDelayLeft={52}
-                verticalRight={160}
-                horizontalRight={170}
+                verticalRight={150}
+                horizontalRight={180}
                 packetLengthRight={160}
-                weldingTimeRight={470}
+                weldingTimeRight={430}
                 stretchOutRight={750}
                 startDelayRight={17}
                 photoDelayRight={54}
@@ -439,17 +439,17 @@ function App() {
             path="/milkpack3/grill360_borisov"
             element={
               <OptionsSettings
-                verticalLeft={145}
-                horizontalLeft={165}
+                verticalLeft={135}
+                horizontalLeft={155}
                 packetLengthLeft={160}
-                weldingTimeLeft={470}
+                weldingTimeLeft={420}
                 stretchOutLeft={600}
                 startDelayLeft={17}
                 photoDelayLeft={52}
-                verticalRight={160}
-                horizontalRight={170}
+                verticalRight={150}
+                horizontalRight={180}
                 packetLengthRight={160}
-                weldingTimeRight={470}
+                weldingTimeRight={460}
                 stretchOutRight={750}
                 startDelayRight={17}
                 photoDelayRight={55}
